@@ -6,9 +6,6 @@
             <directory>./test</directory>
         </testsuite>
     </testsuites>
-    <listeners>
-        <listener class="Amp\PHPUnit\LoopReset" />
-    </listeners>
     <filter>
         <whitelist addUncoveredFilesFromWhitelist="true">
             <directory>./lib</directory>
